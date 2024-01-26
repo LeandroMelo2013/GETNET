@@ -9,5 +9,5 @@ Script da automação seguindo as informações a seguir: REGRES
 
 2) Validar cobertura de Status Code, Campos obrigatórios e Contrato (feito em Python via VS Code)
 
-3) Desenvolver com POJOs. 
+3) Desenvolver com POJOs. (feito conforme solicitado, arquivo pojo.py)
 
