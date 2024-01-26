@@ -8,8 +8,7 @@ def test_create_user():
     # Dados do usuário a serem criados
     user_data = {
         "name": "Leandro Melo",
-        "job": "QA Engineer",
-        "id": "001"
+        "job": "QA Engineer"
     }
 
     # Requisição POST para criar um usuário
