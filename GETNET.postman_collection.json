@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "4c158dfd-8e68-49de-b9df-86b1d8e4fbe1",
+		"name": "GETNET",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REQRES_CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Leandro\",\n    \"job\": \"QA\"\n    }"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REQRES_de_STRING_Para_INT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Leandro\",\n    \"job\": \"QA\"\n    }"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REQRES_Inserindo_Campo_Novo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Leandro\",\n    \"job\": \"QA\"\n    }"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REQRES_Inserindo_Dados_Em Branco",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Leandro\",\n    \"job\": \"QA\"\n    }"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
